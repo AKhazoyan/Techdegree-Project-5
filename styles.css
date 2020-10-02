@@ -6,6 +6,39 @@ html {
     text-align: center;
 }
 
+body {
+    margin: 0;
+}
+
+.portfolioLinkHeader {
+    background-color: #CD5C5C;
+    color: white;
+    padding: 15px;
+}
+
+#profileProjectName {
+    font-weight: bold;
+}
+
+.portfolioLink {
+    color: white;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+
+.portfolioLink:hover {
+    border-color: black;
+}
+
+.portfolioLinkHeader a:hover {
+    color: black;
+}
+
+.portfolioLinkHeader p{
+    margin: 0;
+}
+
 header {
     margin-top: 20px;
 }
@@ -29,12 +62,12 @@ span.lb-caption {
 #mySearch {
     font-size: 16px;    
     padding: 8px;
-    border: 1.5px solid lightgray;
+    border: 1.5px solid gray;
     border-radius: 3px; 
 }
 
 #mySearch::placeholder {
-    color: lightgray;
+    color: gray;
 }
 
 /* Media Query */
